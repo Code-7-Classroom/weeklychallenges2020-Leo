@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2eecb;
+}
+
+.header-title {
+  text-align: center;
+  font-family: Lobster;
+  font-size: 50px;
+}
+
+.header-title::before,
+.header-title::after {
+  text-align: center;
+  content: " * ";
+  font-size: 50px;
+}
+
+.section {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+.container--title {
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+
+.container--title-text {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=styles.css.map */
