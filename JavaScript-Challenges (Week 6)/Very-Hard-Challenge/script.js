@@ -4,25 +4,25 @@ var inputOperator = prompt("Please enter an operator");
 
 switch(inputOperator.toString()){
   case '+' :
-    console.log(parseInt(input) + parseInt(input2));
+    console.log(input + " + " + input2 + " = " + parseInt(input) + parseInt(input2));
     break;
 }
 
 switch(inputOperator.toString()){
   case '-' :
-    console.log(parseInt(input) - parseInt(input2));
+    console.log(input + " - " + input2 + " = " + parseInt(input) - parseInt(input2));
     break;
 }
 
 switch(inputOperator.toString()){
   case '*' :
-    console.log(parseInt(input) * parseInt(input2));
+    console.log(input + " * " + input2 + " = " + parseInt(input) * parseInt(input2));
     break;
 }
 
 switch(inputOperator.toString()){
   case '/' :
-    console.log(parseInt(input) / parseInt(input2));
+    console.log(input + " / " + input2 + " = " + parseInt(input) / parseInt(input2));
     break;
 }
 
