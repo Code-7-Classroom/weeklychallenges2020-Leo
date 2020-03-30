@@ -1,0 +1,374 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    position: fixed;
+    color: #fff;
+    overflow: auto;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.header--nav{
+    display: flex;
+    align-items: center;
+}
+
+
+
+nav a {
+    display: flex;
+    padding: 1.25rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header--nav--ul {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.065rem;
+    list-style-type: none;
+}
+
+.header--nav--li:hover {
+    background: rgb(112, 110, 110);
+}
+
+
+
+
+
+#container {
+    height: 59.375rem;
+}
+
+.cont--header {
+    text-align: center;
+    color: #66fcf1;
+    text-shadow: 0.188rem 0.188rem rgba(0,0,0,0.5);
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container--2 {
+    height: 37.5rem;
+    width: 90%;
+    background: url("Pictures/graybackpack.jpg") no-repeat center/cover;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: outset;
+    text-decoration: none;
+}
+
+
+
+
+
+#products {
+    height: 59.375rem;
+    
+}
+
+.products--container {
+    height: 37.5rem;
+    width: 90%;
+    background: url("Pictures/catbackpack.jpg") no-repeat center/cover;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: outset;
+}
+
+
+.products--header {
+    text-align: center;
+    color: #66fcf1;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+#contact {
+    height: 59.375rem;
+    color: #66fcf1;
+}
+
+.contact--container {
+    height: 37.5rem;
+    width: 90%;
+    background: url("Pictures/girlbackpack.jpg") no-repeat center/cover;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: outset;
+
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#slideshow-container {
+    margin: auto;
+    width: 40rem;
+    height: 50rem;
+    padding-top: 6.25rem;
+    
+}
+
+.slideshow-con {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+
+
+.slideshow-img {
+    border: inset;
+}
+
+
+
+
+
+
+#footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 3.438rem;
+    width: 100vw;
+    text-align: center;
+    border-top: 0.063rem solid #fff;
+  }
+
+  .footer--text {
+      width: 50%;
+      color: #fff;
+  }
+
+  .footer--socialLinks{
+      width: 50%;
+      color: #fff;
+      text-decoration: none;
+      justify-content: end;
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .footer--a {
+    color: #fff;
+  }
+
+
+
+  .fa-facebook {
+      height:1.375rem;
+      width: 1.375rem;
+      color: #fff;
+      padding-right: 5rem;
+  }
+
+  .fa-instagram {
+    height:1.375rem;
+    width: 1.375rem;
+      color: #fff;
+      padding-right: 5rem;
+  }
+
+  .fa-twitter {
+      height:1.375rem;
+      width: 1.375rem;
+      color: #fff;
+  }
+
+
+  /* Contact page */
+
+.l-heading {
+    color: #66fcf1;
+    font-size: 2.188rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1.875rem;
+    margin-bottom: 0.625rem;
+}
+
+  #contact-form .from-group {
+    margin-bottom: 1.25rem;
+}
+
+#contact-form label {
+    display: block;
+}
+
+#contact-form input,
+#comtact-form textarea {
+    width: 100%;
+    padding: 0.625rem;
+    border: 0.063rem #ddd solid;
+    margin: 1.25rem 0rem;
+}
+
+#contact-form textarea {
+    height: 12.5rem;
+    width: 100%;
+    margin: 1.25rem 0rem;
+}
+
+#contact-form input:focus,
+#contactform textarea:focus {
+    outline: none;
+    border: 0.094rem solid #66fcf1;
+}
+
+.container {
+    margin: auto;
+    max-width: 68.75rem;
+    overflow: auto;
+    padding: 4.375rem 1.25rem;
+
+}
+
+label {
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.125rem;
+    color: #fff;
+    background: #333;
+    padding: 0.813rem 1.25rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    margin-top: 0.625rem;
+}
+
+
+.btn:hover {
+    background: #66fcf1;
+    color: #333;
+}
+
+
+/* Products page */
+
+#select {
+    padding-top: 5rem;
+    margin: auto;
+}
+
+#flex-container {
+    width: 62.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 6.5rem;
+    margin-bottom: 2rem;
+}
+
+
+#flex-container img {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-top: 1.25rem;
+}
+
+#flex-container h3 {
+    color: black;
+}
+
+#flex-container p {
+    color:black;
+    text-align: left;
+    padding: 0.313rem;
+}
+
+.d1{
+    background-color: #fff;
+    box-shadow: 0.438rem 0.438rem #a1aaa9;
+    height: 25rem;
+    width: 14.375rem;
+    text-align: center;
+    margin: 0.625rem;
+}
+
+select {
+    margin-top: 6.25rem;
+}
+
+.grid__filter {
+    display: inline-block;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 53rem) and (max-height: 53rem) {
+    .slideshow-img {
+        width: 40rem;
+        height: 30rem;
+        margin-bottom: 0.625rem;
+        
+    }
+    #container {
+        margin-top: 4rem;
+    }
+    nav {
+        width: 100%;
+    }
+    #slideshow-container {
+        padding-top: 10rem;
+    }
+    .container--2 {
+        width: 40rem;
+    }
+    .products--container{
+        width: 40rem;
+    }
+    .contact--container{
+        width: 40rem;
+    }
+    .l-heading{
+        margin-top: 4rem;
+    }
+    #flex-container {
+        width: 35rem;
+        height: 35rem;
+        justify-content: center;
+        margin-bottom: 52rem;
+    }
+    #footer {
+        width: 100%;
+    }
+    .d1 {
+        width: 10rem;
+        height: 18rem;
+    }
+    #flex-container img {
+        height: 5rem;
+        width: 5rem;
+    }
+}
