@@ -1,0 +1,4 @@
+The Diffence between var, let and const.
+var is a ES5 keyword used to define a variable
+let is a ES6 keyword which is the same as var 
+const is a ES6 keyword that is used to define a variable that cannot be reassigned throughout your code
