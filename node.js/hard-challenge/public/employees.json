@@ -1,0 +1,64 @@
+    {   "employees" : [
+        {
+            "name": "Nathan Cha",
+            "id": 1, 
+            "salary": 75000,
+            "department": "IT Department"
+        },
+        {
+            "name": "Alan Vang",
+            "id": 2, 
+            "salary": 60000, 
+            "job": "Sales Department"
+        },
+        {
+            "name": "Wilson Perez",
+            "id": 3, 
+            "salary": 80000, 
+            "job": "HR Department"
+        },
+        {
+            "name": "Kelvin Melendez",
+            "id": 4, 
+            "salary": 70000, 
+            "job": "Sales Department"
+        },
+        {
+            "name": "Josue Flores",
+            "id": 5, 
+            "salary": 80000, 
+            "job": "IT Department"
+        },
+        {
+            "name": "Derek Jackson",
+            "id": 6, 
+            "salary": 88000, 
+            "job": "HR Department"
+        },
+        {
+            "name": "Lenise Spann-Bell",
+            "id": 7, 
+            "salary": 88000, 
+            "job": "IT Department"
+        },
+        {
+            "name": "Charlie Howell",
+            "id": 8, 
+            "salary": 100000, 
+            "job": "Sales Department"
+        },
+        {
+            "name": "Jamika Palmer",
+            "id": 9, 
+            "salary": 88000, 
+            "job": "Sales Department"
+        },
+        {
+            "name": "Leeangelo Riley",
+            "id": 10, 
+            "salary": 100000, 
+            "job": "IT Department"
+        }
+        
+    ]
+ }

@@ -1,0 +1,14 @@
+{
+  "name": "hard-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leeangelo Riley",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
