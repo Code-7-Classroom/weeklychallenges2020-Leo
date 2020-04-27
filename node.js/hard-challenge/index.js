@@ -27,7 +27,7 @@ app.get('/employees', (req, res) => {
 // Made a function for accessing the ids in json file
 app.get('/employees/:id', (req,res) =>{
 
-    // finding a specific students
+    // finding a specific employees
     const eData = data.employees.find( (employees) => {
         console.log(employees.id);
 
