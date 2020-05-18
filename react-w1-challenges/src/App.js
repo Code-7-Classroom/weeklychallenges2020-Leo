@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import BasicInfo from './BasicInfo'
+import Person from './BasicInfo'
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
         person: [
@@ -32,7 +32,7 @@ class App extends Component {
     }
 }
   render() {
-    return <BasicInfo person={this.state.person} />;
+    return <Person person={this.state.person} /> 
   }
 }
 
