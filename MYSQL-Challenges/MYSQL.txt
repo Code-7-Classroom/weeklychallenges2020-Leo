@@ -1,0 +1,60 @@
+DROP DATABASE IF EXISTS Leo;
+CREATE DATABASE Leo;
+USE Leo;
+
+-- Very Easy challenge 
+CREATE TABLE Cars(make VARCHAR(255), model VARCHAR(255), year INT, id INT AUTO_INCREMENT PRIMARY KEY);
+
+INSERT INTO Cars(make, model, year) 
+VALUES("Honda", "Civic", 2020),
+("Tesla", "M3", 2019),
+("Nissan", "GTR-R35", 2018);
+
+INSERT INTO Cars(make,model, year)
+VALUES("Toyota", "Supra", 2020),
+("Honda", "Accord", 2002);
+
+SELECT * FROM Cars;
+
+
+-- medium
+CREATE TABLE movies (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255), 
+    release_date year, 
+    rating DECIMAL(2,1)
+);
+INSERT INTO movies (title, release_date, rating)
+VALUES ('Black Panther', 2018, 9.7), ('AVENGERS: ENDGAME', 2019, 9.4), ('Joker', 2019, 8.5), ('Capon', 2020, 4.8), ('Extraction', 2020, 6.8), ('Toy Story 4', 2019, 9.7), ('Parasite', 2019, 8.6), ('Wizard of Oz', 1939, 9.8), ('The Gentlemen', 2019, 7.9), ('Spider-Man: Into the Spider-Verse', 2018, 7.9);
+ALTER TABLE movies ADD COLUMN director_first VARCHAR(255);
+ALTER TABLE movies ADD COLUMN director_last VARCHAR(255);
+UPDATE movies 
+	SET director_first = 'Ryan', director_last = 'Coogler'
+	WHERE title = 'Black Panther';
+UPDATE movies 
+	SET director_first = 'Anthony', director_last = 'Russo'
+	WHERE title = 'AVENGERS: ENDGAME';
+UPDATE movies 
+	SET director_first = 'Todd', director_last = 'Philips'
+	WHERE title = 'Joker';
+UPDATE movies 
+	SET director_first = 'Josh', director_last = 'Trank'
+	WHERE title = 'Capon';
+UPDATE movies 
+	SET director_first = 'Sam', director_last = 'Hargrave'
+	WHERE title = 'Extraction';
+UPDATE movies 
+	SET director_first = 'Josh', director_last = 'Cooley'
+	WHERE title = 'Toy Story 4';
+UPDATE movies 
+	SET director_first = 'Boog', director_last = 'Ho'
+	WHERE title = 'Parasite';
+UPDATE movies 
+	SET director_first = 'King', director_last = 'Vidor'
+	WHERE title = 'Wizard of Oz';
+UPDATE movies 
+	SET director_first = 'Guy', director_last = 'Ritchie'
+	WHERE title = 'The Gentlemen';
+UPDATE movies 
+	SET director_first = 'Bob', director_last = 'Persichetti'
+	WHERE title = 'Spider-Man: Into the Spider-Verse';
